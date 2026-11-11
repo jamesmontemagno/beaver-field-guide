@@ -1,0 +1,16 @@
+{
+  "name": "beaver-field-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A beginner-friendly, static field guide to nature's ecosystem engineers.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "npm run build && npm test",
+    "start": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
